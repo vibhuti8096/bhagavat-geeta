@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="img/bg.jpg" type="image/x-icon">
+</head>
+<body>
+<header class="mt-2 border" style="background-color: burlywood; color: black; ">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 d-flex">
+                <div class="col-2 fs-3 fw-bold">
+                    Bhagvat Geeta
+                </div>              
+                <div class="col-6 " >
+                    <ul class="d-flex align-items-center justify-content-evenly list-unstyled pt-2">
+                        <li class="position-relative " id="chaptersContainer " >
+                                <a href="#" onclick="event.preventDefault(); toggleChapters();" class="text-decoration-none fs-5 fw-bold">
+                                Chapters <span><i class="fa-solid fa-angle-down"></i></span>
+                            </a>
+                            <div id="chapterslist" class="position-absolute bg-white p-2 shadow" style="display: none; z-index: 1000;">   
+                            </div>
+                        </li>
+                        <li>
+                            <a href="" class="text-decoration-none fs-5 fw-bold">Quotes</a>
+                        </li>
+                        <li>
+                            <a href="" class="text-decoration-none fs-5 fw-bold">About Gita</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-2 d-flex align-items-center justify-content-evenly">
+                 
+                    <input type="search" placeholder="Search...." class="rounded " width="20px">
+               
+                </div>
+                <div class="col-2 d-flex justify-content-evenly pt-2">
+                    <span class="fs-5 pl-3">
+                        <i class="fa-solid fa-moon"></i>
+                    </span>
+                    <div class="fs-5 position-relative ">
+                        <a href="" class="text-decoration-none">
+                            Language <span> <i class="fa-solid fa-angle-down"></i></span>
+                        </a>
+                        <div id="chapterslist" class="position-absolute bg-white p-2 shadow" style="display: none; z-index: 1000;">   
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="banner">
+                        <img src="./img/banner2.jpg" alt="" class="relative z-10">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 mt-5 ">
+                    <h2 class="fw-bold">Chapters</h2>
+                </div>
+                <div class="col-12 d-flex mt-4">
+                    <div class="col-6 chap-box"><a href="./cha1.html" class="text-decoration-none ">
+                        <p class="chap-nob">Chapter 1</p>
+                        <h6 class="chep-head fw-bold">Arjuna Visada Yoga</h6>
+                        <p class="chep-dis">The first chapter of the Bhagavad Gita - "Arjuna Vishada Yoga" introduces the setup, the setting, the characters and the circumstances that led to the epic battle of Mahabharata, fought between the Pandavas and the Kauravas. It outlines the reasons that led to the revelation of... </p>
+                        <span class="bars"><i class="fa-solid fa-bars"></i> 47 Verses</span>
+                        </a> 
+                    </div>
+                    <div class="col-6 chap-box"> <a href="./cha2.html" class="text-decoration-none ">
+                        <p class="chap-nob">Chapter 2</p>
+                        <h6 class="chep-head fw-bold">Sankhya Yoga</h6>
+                        <p class="chep-dis">The second chapter of the Bhagavad Gita is "Sankhya Yoga". This is the most important chapter of the Bhagavad Gita as Lord Krishna condenses the teachings of the entire Gita in this chapter. This chapter is the essence of the entire</p>
+                        <span class="bars"><i class="fa-solid fa-bars"></i> 72 Verses</span>
+                        </a>
+                    </div>
+                </div>
+                 <div class="col-12 d-flex mt-4">
+                    <div class="col-6 chap-box"><a href="./cha3.html" class="text-decoration-none ">
+                        <p class="chap-nob">Chapter 3</p>
+                        <h6 class="chep-head fw-bold">Karma Yoga</h6>
+                        <p class="chep-dis">The third chapter of the Bhagavad Gita is "Karma Yoga" or the "Path of Selfless Service". Here Lord Krishna emphasizes the importance of karma in life. He reveals that it is important for every human being to engage in some sort of activity in this material world. Further,</p>
+                        <span class="bars"><i class="fa-solid fa-bars"></i> 43 Verses</span>
+                        </a> 
+                    </div>
+                    <div class="col-6 chap-box"> <a href="./cha4.html" class="text-decoration-none ">
+                        <p class="chap-nob">Chapter 4</p>
+                        <h6 class="chep-head fw-bold">Jnana Karma Sanyasa Yoga</h6>
+                        <p class="chep-dis">The fourth chapter of the Bhagavad Gita is "Jnana Karma Sanyasa Yoga". In this chapter, Krishna glorifies the Karma Yoga and imparts the Transcendental Knowledge (the knowledge of the soul and the Ultimate Truth) to Arjuna. He reveals the reason behind his appearance in this material world. He reveals that even though he is eternal,</p>
+                        <span class="bars"><i class="fa-solid fa-bars"></i> 42 Verses</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 d-flex mt-4">
+                    <div class="col-6 chap-box"><a href="./cha5.html" class="text-decoration-none ">
+                        <p class="chap-nob">Chapter 5</p>
+                        <h6 class="chep-head fw-bold">Karma Sanyasa Yoga</h6>
+                        <p class="chep-dis">The fifth chapter of the Bhagavad Gita is "Karma Sanyasa Yoga". In this chapter, Krishna compares the paths of renunciation in actions (Karma Sanyas) and actions with detachment (Karma Yoga) and explains that both are means to reach the same goal and we can</p>
+                        <span class="bars"><i class="fa-solid fa-bars"></i> 29 Verses</span>
+                        </a> 
+                    </div>
+                    <div class="col-6 chap-box"> <a href="./cha6.html" class="text-decoration-none ">
+                        <p class="chap-nob">Chapter 6</p>
+                        <h6 class="chep-head fw-bold">Dhyana Yoga</h6>
+                        <p class="chep-dis">The sixth chapter of the Bhagavad Gita is "Dhyana Yoga". In this chapter, Krishna reveals the "Yoga of Meditation" and how to practise this Yoga. He discusses the role of action in preparing for Meditation, how performing duties in devotion purifies one's mind and heightens </p>
+                        <span class="bars"><i class="fa-solid fa-bars"></i> 47 Verses</span>
+                        </a>
+                    </div>
+                </div>
+                 <div class="col-12 d-flex mt-4">
+                    <div class="col-6 chap-box"><a href="./cha7.html" class="text-decoration-none ">
+                        <p class="chap-nob">Chapter 7</p>
+                        <h6 class="chep-head fw-bold">Gyaan Vigyana Yoga</h6>
+                        <p class="chep-dis">The seventh chapter of the Bhagavad Gita is "Gyaan Vigyana Yoga ". In this chapter, Krishna reveals that he is the Supreme Truth, the principal cause and the sustaining force of everything. He reveals his illusionary energy in this material world called Maya,</p>
+                        <span class="bars"><i class="fa-solid fa-bars"></i> 30 Verses</span>
+                        </a> 
+                    </div>
+                    <div class="col-6 chap-box"> <a href="./cha8.html" class="text-decoration-none ">
+                        <p class="chap-nob">Chapter 8</p>
+                        <h6 class="chep-head fw-bold">Akshara Brahma Yoga</h6>
+                        <p class="chep-dis">The eighth chapter of the Bhagavad Gita is "Akshara Brahma Yoga". In this chapter, Krishna reveals the importance of the last thought before death. If we can remember Krishna at the time of death, we will certainly attain him. Thus, </p>
+                        <span class="bars"><i class="fa-solid fa-bars"></i> 28 Verses</span>
+                        </a>
+                    </div>
+                </div>    
+                <div class="col-12 d-flex mt-4">
+                    <div class="col-6 chap-box"><a href="./cha9.html" class="text-decoration-none ">
+                        <p class="chap-nob">Chapter 9</p>
+                        <h6 class="chep-head fw-bold">Raja Vidya Yoga</h6>
+                        <p class="chep-dis">The ninth chapter of the Bhagavad Gita is "Raja Vidya Yoga". In this chapter, Krishna explains that He is Supreme and how this material existence is created, maintained and destroyed by His Yogmaya and all beings come and go under</p>
+                        <span class="bars"><i class="fa-solid fa-bars"></i>34 Verses</span>
+                        </a> 
+                    </div>
+                    <div class="col-6 chap-box"> <a href="./cha10.html" class="text-decoration-none ">
+                        <p class="chap-nob">Chapter 10</p>
+                        <h6 class="chep-head fw-bold">Vibhooti Yoga</h6>
+                        <p class="chep-dis">The tenth chapter of the Bhagavad Gita is "Vibhooti Yoga". In this chapter, Krishna reveals Himself as the cause of all causes. He describes </p>
+                        <span class="bars"><i class="fa-solid fa-bars"></i>42 Verses</span>
+                        </a>
+                    </div>
+                </div>
+                 <div class="col-12 d-flex mt-4">
+                    <div class="col-6 chap-box"><a href="./cha11.html" class="text-decoration-none ">
+                        <p class="chap-nob">Chapter 11</p>
+                        <h6 class="chep-head fw-bold">Vishwaroopa Darshana Yoga</h6>
+                        <p class="chep-dis">The eleventh chapter of the Bhagavad Gita is "Vishwaroopa Darshana Yoga". In this chapter, Arjuna requests Krishna to reveal His Universal Cosmic </p>
+                        <span class="bars"><i class="fa-solid fa-bars"></i>55 Verses</span>
+                        </a> 
+                    </div>
+                    <div class="col-6 chap-box"> <a href="./cha12.html" class="text-decoration-none ">
+                        <p class="chap-nob">Chapter 12</p>
+                        <h6 class="chep-head fw-bold">Bhakti Yoga</h6>
+                        <p class="chep-dis">The twelfth chapter of the Bhagavad Gita is "Bhakti Yoga". In this chapter, Krishna emphasizes the superiority of Bhakti Yoga (the path of devotion) over all other types of spiritual disciplines and reveals various aspects of devotion. He furthe</p>
+                        <span class="bars"><i class="fa-solid fa-bars"></i>20 Verses</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 d-flex mt-4">
+                    <div class="col-6 chap-box"><a href="./cha13.html" class="text-decoration-none ">
+                        <p class="chap-nob">Chapter 13</p>
+                        <h6 class="chep-head fw-bold">Ksetra Ksetrajna Vibhaaga Yoga</h6>
+                        <p class="chep-dis">The thirteenth chapter of the Bhagavad Gita is "Ksetra Ksetrajna Vibhaaga Yoga". The word "kshetra" means "the field", and the "kshetrajna" means "the knower of the field". We can think of our material body as the field and our immortal soul</p>
+                        <span class="bars"><i class="fa-solid fa-bars"></i>35 Verses</span>
+                        </a> 
+                    </div>
+                    <div class="col-6 chap-box"> <a href="./cha14.html" class="text-decoration-none ">
+                        <p class="chap-nob">Chapter 14</p>
+                        <h6 class="chep-head fw-bold">Gunatraya Vibhaga Yoga</h6>
+                        <p class="chep-dis">The fourteenth chapter of the Bhagavad Gita is "Gunatraya Vibhaga Yoga". In this chapter, Krishna reveals the three gunas (modes) of the material nature - goodness, passion and ignorance which everything in the material existence is</p>
+                        <span class="bars"><i class="fa-solid fa-bars"></i>27 Verses</span>
+                        </a>
+                    </div>
+                </div>
+                 <div class="col-12 d-flex mt-4">
+                    <div class="col-6 chap-box"><a href="./cha15.html" class="text-decoration-none ">
+                        <p class="chap-nob">Chapter 15</p>
+                        <h6 class="chep-head fw-bold">Purushottama Yoga</h6>
+                        <p class="chep-dis">The fifteenth chapter of the Bhagavad Gita is "Purushottama Yoga". In Sanskrit, Purusha means the "All-pervading God", and Purushottam means the timeless & transcendental aspect of God. Krishna reveals that the purpose of this</p>
+                        <span class="bars"><i class="fa-solid fa-bars"></i> 20 Verses</span>
+                        </a> 
+                    </div>
+                    <div class="col-6 chap-box"> <a href="./cha16.html" class="text-decoration-none ">
+                        <p class="chap-nob">Chapter 16</p>
+                        <h6 class="chep-head fw-bold">Daivasura Sampad Vibhaga Yoga</h6>
+                        <p class="chep-dis">The sixteenth chapter of the Bhagavad Gita is "Daivasura Sampad Vibhaga Yoga". In this chapter, Krishna describes explicitly the two kinds of natures among human beings - divine and demoniac. Those who possess demonaic qualities associate themselves</p>
+                        <span class="bars"><i class="fa-solid fa-bars"></i>24 Verses</span>
+                        </a>
+                    </div>
+                </div>   
+                <div class="col-12 d-flex mt-4">
+                    <div class="col-6 chap-box"><a href="./cha17.html" class="text-decoration-none ">
+                        <p class="chap-nob">Chapter 17</p>
+                        <h6 class="chep-head fw-bold">Sraddhatraya Vibhaga Yoga</h6>
+                        <p class="chep-dis">The seventeenth chapter of the Bhagavad Gita is "Sraddhatraya Vibhaga Yoga". In this chapter, Krishna describes the three types of faith corresponding to the three modes of the material nature. Lord Krishna further reveals that it is the</p>
+                        <span class="bars"><i class="fa-solid fa-bars"></i>28 Verses</span>
+                        </a> 
+                    </div>
+                    <div class="col-6 chap-box"> <a href="./cha18.html" class="text-decoration-none ">
+                        <p class="chap-nob">Chapter 18</p>
+                        <h6 class="chep-head fw-bold">Moksha Sanyaas Yoga</h6>
+                        <p class="chep-dis">The eighteenth chapter of the Bhagavad Gita is "Moksha Sanyas Yoga". Arjuna requests the Lord to explain the difference between the two types of renunciations - sanyaas(renunciation of actions) and tyaag(renunciation of desires). Krishna explains that a sanyaasi is one who abandons family and society</p>
+                        <span class="bars"><i class="fa-solid fa-bars"></i>78 Verses</span>
+                        </a>
+                    </div>
+                </div>                       
+            </div>
+        </div>
+    </section>
+</main>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+<script src="./script.js"></script>
+</body>
+</html>

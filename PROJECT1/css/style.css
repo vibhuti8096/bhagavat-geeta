@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#chapterList ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#chapterList li {
+  padding: 5px 0;
+  font-family: 'Noto Sans Devanagari', sans-serif;
+}
+
+#chapterslist {
+  width: 300px;          
+  max-height: 400px;        
+  overflow-y: auto;         
+  background-color: #fff;   
+  border: 1px solid #ccc;   
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+  position: absolute;        
+  z-index: 1000;
+}
+
+.border{
+  border-radius: 50px;
+}
+
+.chap-box{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   margin: 10px;
+   padding: 10px; 
+   border-radius: 10px;
+}
+.chap-nob{
+  color: orangered;
+}
+.chep-head{
+  color: black;
+}
+.chep-dis{
+  color: gray;
+}
+
+.bars{
+  color: black;
+}
+
+#summary{
+  margin-left: 200px;
+  margin-right: 200px;
+  font-size: 15px;
+}
+
